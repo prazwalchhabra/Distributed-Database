@@ -1,0 +1,28 @@
+Relation,Fragment,FragmentType,Details
+Inventories, Inventories_1, 'DH', "[productID, productID, Products_1]"
+Inventories, Inventories_2, 'DH', "[productID, productID, Products_2]"
+Inventories, Inventories_3, 'DH', "[productID, productID, Products_3]"
+Inventories, Inventories_4, 'DH', "[productID, productID, Products_4]"
+Vendors, Vendors_1, 'V', "[vendorID, vendorName, rating] "
+Vendors, Vendors_2, 'V', "[vendorID, addressID , email , phone]"
+Products,Products_1, 'H', [categoryID=1]
+Products,Products_2, 'H', [categoryID=2]
+Products,Products_3, 'H', [categoryID=3]
+Products,Products_4, 'H', [categoryID=4]
+,,,
+,,,
+,,,
+Fragment,Site,,
+Inventories_1,1,,
+Inventories_2,1,,
+Inventories_3,2,,
+Inventories_4,3,,
+Vendors_1,2,,
+Vendors_2,3,,
+Products_1,1,,
+Products_2,2,,
+Products_3,3,,
+Products_4,3,,
+Addresses,1,,
+Categories,1,,
+Customers,1,,
